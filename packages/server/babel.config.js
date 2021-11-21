@@ -1,3 +1,3 @@
-const config = require('@task-app/babel');
+const config = require('@setimo-andar/babel');
 
 module.exports = config;
