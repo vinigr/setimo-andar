@@ -21,7 +21,9 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "mongoose": "^6.0.13"
+  },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
