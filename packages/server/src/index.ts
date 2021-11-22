@@ -1,10 +1,11 @@
 import { createServer } from "http";
 import app from "./app";
+import { config } from "./config";
 
 (async () => {
   const server = createServer(app.callback());
 
-  server.listen("4000", () => {
-    console.log(`server running at http://localhost:4000`);
+  server.listen(config.PORT, () => {
+    console.log(`server running at http://localhost:${config.PORT}`);
   });
 })();
